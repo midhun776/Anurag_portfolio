@@ -13899,7 +13899,7 @@ h1 {
 }
 
 .parallax-home {
-  background-image: url(../img/IMG_0451.JPG);
+  background-image: url(../img/IMG_0451.webp);
 }
 
 footer {
@@ -13935,7 +13935,7 @@ footer {
 }
 
 .hero {
-  background-image: url(../img/IMG_0451.JPG);
+  background-image: url(../img/IMG_0451.webp);
   padding-top: 96px;
   background-size: cover;
   padding-top: 20vh;
@@ -13943,7 +13943,7 @@ footer {
 }
 
 .about-title {
-  background: url(../img/IMG_0452.png);
+  background: url(../img/IMG_0452.webp);
   background-size: cover;
   background-position: center;
   min-height: 45vw;
