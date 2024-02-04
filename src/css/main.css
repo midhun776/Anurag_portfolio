@@ -9719,19 +9719,19 @@ fieldset:disabled a.btn {
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #bc2b00;
-  border-color: #af2800;
-  box-shadow: 0 0 0 0.2rem rgba(230, 82, 38, 0.5);
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #e23400;
-  border-color: #e23400;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #af2800;
-  border-color: #a22500;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(230, 82, 38, 0.5);
@@ -9798,28 +9798,28 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #e23400;
-  border-color: #e23400;
+  color: #fcfcfc;
+  border-color: #ffffff;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #e23400;
-  border-color: #e23400;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(226, 52, 0, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #e23400;
+  color: #ffffff;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #e23400;
-  border-color: #e23400;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(226, 52, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
 
 .btn-outline-secondary {
@@ -10623,6 +10623,10 @@ button.bg-secondary:focus {
 
 .bg-dark {
   background-color: #1f1f1f !important;
+}
+
+.bg-dark2 {
+  background-color: #303030 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -13926,6 +13930,10 @@ footer {
   color: #6c757d;
   display: inline-block;
   margin: 0 0.5em 0 0.7em;
+}
+
+a {
+  scroll-behavior: smooth;
 }
 
 .social-link:not(:first-of-type)::before {
